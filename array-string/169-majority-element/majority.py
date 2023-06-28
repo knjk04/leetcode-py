@@ -1,6 +1,7 @@
 from typing import List
 
 
+# Problem: https://leetcode.com/problems/majority-element/description/
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         # data structure to hold every number and the number of occurrences
