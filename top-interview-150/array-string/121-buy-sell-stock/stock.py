@@ -13,8 +13,7 @@ class Solution:
             if prices[i] < prices[best_buy_index]:
                 best_buy_index = i
 
-            current_profit = prices[i] - prices[best_buy_index]
-            if i > best_buy_index and current_profit > max_profit:
-                max_profit = current_profit
+            if i > best_buy_index:
+                max_profit = max(max_profit, prices[i] - prices[best_buy_index])
 
         return max_profit
