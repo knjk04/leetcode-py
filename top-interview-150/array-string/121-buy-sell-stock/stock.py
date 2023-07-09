@@ -9,14 +9,12 @@ class Solution:
 
         best_buy_index = 0
         max_profit = 0
-        shift = 1
-        for index, val in enumerate(prices[shift:]):
-            shifted_index = index + shift
-            if val < prices[best_buy_index]:
-                best_buy_index = shifted_index
+        for i in range(1, len(prices)):
+            if prices[i] < prices[best_buy_index]:
+                best_buy_index = i
 
-            current_profit = prices[shifted_index] - prices[best_buy_index]
-            if shifted_index > best_buy_index and current_profit > max_profit:
+            current_profit = prices[i] - prices[best_buy_index]
+            if i > best_buy_index and current_profit > max_profit:
                 max_profit = current_profit
 
         return max_profit
