@@ -34,4 +34,5 @@ class Solution:
                 print(f"Opening: {char}")
                 open_stack.append(char)
 
-        return len(open_stack) == 0  # all are paired
+        return not open_stack  # all are paired
+
