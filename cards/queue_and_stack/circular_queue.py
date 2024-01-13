@@ -16,7 +16,7 @@ class MyCircularQueue:
 
         if self.end_pos is not None and (
                 self.end_pos + 1 == self.size or self.end_pos < self.start_pos):
-            # circular queue
+            # circular queue_and_stack
             self.end_pos = 0
             self.queue.insert(0, value)
             print(f"Post end pos={self.end_pos}")

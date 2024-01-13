@@ -28,12 +28,11 @@ class Solution:
                 lower_bound = nums[i]
                 upper_bound = None
 
-            # special case for last number that is not a part of an interval:
-            if i + 1 == len(nums):
-                if nums[i] == upper_bound:  # last number is in an interval
-                    num_range = f"{lower_bound}->{upper_bound}"
-                    sorted_list.append(num_range)
-                else:
-                    sorted_list.append(str(nums[i]))
+        # special case for last number that is not a part of an interval:
+        if nums[i] == upper_bound:  # last number is in an interval
+            num_range = f"{lower_bound}->{upper_bound}"
+            sorted_list.append(num_range)
+        else:
+            sorted_list.append(str(nums[i]))
 
         return sorted_list
