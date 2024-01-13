@@ -1,0 +1,2 @@
+- [X] [Two sum solution](https://github.com/knjk04/leetcode-py/blob/main/top-interview-150/hashmap/two_sum.py)
+- [X] [Valid parentheses question](https://leetcode.com/problems/valid-parentheses/submissions/1144838054/)
