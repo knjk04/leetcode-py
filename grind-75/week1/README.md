@@ -2,7 +2,7 @@
 - [X] [Valid parentheses question](https://leetcode.com/problems/valid-parentheses/submissions/1144838054/)
 - [ ] [Merge Two Sorted Lists question](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [X] [Best Time To Buy And Sell Stock question](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1144846047/). [Solution](https://github.com/knjk04/leetcode-py/tree/main/top-interview-150/array-string/121-buy-sell-stock)
-- [ ] [Valid Palindrome question]()
+- [X] [Valid Palindrome question](https://leetcode.com/problems/valid-palindrome/description/)
 - [ ] [Invert Binary Tree question]()
 - [ ] [Valid Anagram question]()
 - [ ] [Binary Search question]()
