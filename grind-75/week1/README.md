@@ -5,7 +5,7 @@
 - [X] [Valid Palindrome question](https://leetcode.com/problems/valid-palindrome/description/)
 - [X] [Invert Binary Tree question](https://leetcode.com/problems/invert-binary-tree/description/)
 - [X] [Valid Anagram question](https://leetcode.com/problems/valid-anagram/description/)
-- [ ] [Binary Search question]()
+- [X] [Binary Search question](https://leetcode.com/problems/binary-search/description/)
 - [ ] [Flood fill question]()
 - [ ] [Maximum Subarray question]()
 - [ ] [Lowest Common Ancestor of a Binary Search Tree question]()
